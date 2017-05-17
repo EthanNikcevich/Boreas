@@ -7,4 +7,3 @@ $.ajax({
     error: function() { alert('Failed!'); }
 });
 
-
