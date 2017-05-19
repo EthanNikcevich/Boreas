@@ -26,6 +26,11 @@ $(document).ready(function(){
 //cloudy & HOT: If you're going out, wear shorts and a t-shirt. It's hot today. Remember to hydrate!
 //cloudy & WARM: It's the perfect day for a run in the outdoors. Have fun out there!
 //cloudy & COLD: Remember to wear a sweater if you're going outside. It's cold!
+//cloudy & FRIGID: It's freezing out there. Wear a coat, and bring your thermos!
+//partly-cloudy-day & HOT: If you're going out, wear shorts and a t-shirt. It's hot today. Remember to hydrate!
+//partly-cloudy-day & WARM: It's the perfect day for a run in the outdoors. Have fun out there!
+//partly-cloudy-day & COLD: Remember to wear a sweater if you're going outside. It's cold!
+//partly-cloudy-day & FRIGID: It's freezing out there. Wear a coat, and bring your thermos!
 //clear-day & HOT: If you're going out, remember to put on sunscreen. It's hot today. Remember to hydrate!
 //clear-day & WARM: Have fun! Go outside and enjoy yourself. It's a lovely day!
 //clear-day & COLD: It's a beautiful day! Remember to wear a sweater if you're going outside. It's cold!
