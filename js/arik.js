@@ -5,6 +5,11 @@ function run() {
     F = undefined;
     icon = undefined;
     summary = undefined;
+    cloudCover = undefined;
+    humidity = undefined;
+    precipProbability = undefined;
+    visibility = undefined;
+    windSpeed = undefined;
 
     var city = document.getElementById("city").value;
     var state = document.getElementById("state").value;
@@ -51,7 +56,18 @@ function getData(result) {
     var F = result.currently.apparentTemperature;
     var icon = result.currently.icon;
     var summary = result.currently.summary;
-    console.log(result.currently.apparentTemperature);
-    console.log(result.currently.icon);
-    console.log(result.currently.summary);
+    var cloudCover = result.currently.cloudCover;
+    var humidity = result.currently.humidity;
+    var precipProbability = result.currently.precipProbability;
+    var visibility = result.currently.visibility;
+    var windSpeed = result.currently.windSpeed;
+
+    // console.log(F);
+    // console.log(icon);
+    // console.log(summary);
+    // console.log(cloudCover);
+    // console.log(humidity);
+    // console.log(precipProbability);
+    // console.log(visibility);
+    // console.log(windSpeed);
 }
