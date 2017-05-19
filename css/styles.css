@@ -1,5 +1,5 @@
 html {
-    background: #78bbd8;
+    background: #73a0d8;
     color: #78bbd8;
     font-size: 1.5em;
     font-family: 'Corben', Georgia, Times, serif;
@@ -25,7 +25,7 @@ button:active {
 
 form {
     background: #78bbd8;
-    color: #afada9;
+    color: #5146af;
     font-size: 1.5em;
     font-family: 'Corben', Georgia, Times, serif;
 }
@@ -36,14 +36,14 @@ body {
     font-size: 14px;
     line-height: 1.42857143;
     color: #333;
-    background-color: #fff;
+    background-color: #0016ff;
 }
 
 h2 {
     font-family: 'Corben', Georgia, Times, serif;
     font-size: 14px;
     line-height: 1.42857143;
-    color: #78bbd8;
+    color: #000000;
     background-color: #78bbd8;
 }
 
