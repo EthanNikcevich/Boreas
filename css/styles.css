@@ -1,4 +1,4 @@
-html {
+body {
     background: #73a0d8;
     color: #78bbd8;
     font-size: 1.5em;
@@ -30,14 +30,6 @@ form {
     font-family: 'Corben', Georgia, Times, serif;
 }
 
-body {
-    background: url(http://www.colorhexa.com/78bbd8.png) repeat 0 0;
-    font-family: 'Corben', Georgia, Times, serif;
-    font-size: 14px;
-    line-height: 1.42857143;
-    color: #333;
-    background-color: #0016ff;
-}
 
 h2 {
     font-family: 'Corben', Georgia, Times, serif;
