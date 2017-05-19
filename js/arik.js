@@ -2,6 +2,9 @@
 
 // key = AIzaSyCq7C2oo_IggNRS6KKMYM0VrTH3Tt8J2Ag
 function run() {
+    F = undefined;
+    icon = undefined;
+    summary = undefined;
 
     var city = document.getElementById("city").value;
     var state = document.getElementById("state").value;
@@ -14,7 +17,7 @@ function run() {
         dataType: 'json',
         success: function (result) {
             console.log(result);
-            getData(result.results[0].geometry.location.lat, result.results[0].geometry.location.lng)
+            getWeather(result.results[0].geometry.location.lat, result.results[0].geometry.location.lng)
         },
         error: function () {
             alert('Failed!');
@@ -23,7 +26,7 @@ function run() {
 
 
 //key = ad0a25918602e1d5ac8a98c6c9764da1
-    function getData(lat, lng) {
+    function getWeather(lat, lng) {
 
         var url = "https://api.darksky.net/forecast/ad0a25918602e1d5ac8a98c6c9764da1/" + lat + "," + lng;
 
@@ -33,7 +36,9 @@ function run() {
             crossDomain: true,
             dataType: 'jsonp',
             success: function (result) {
-                console.log(result)
+                console.log(result);
+                getData(result);
+                console.log("test");
             },
             error: function () {
                 alert('Failed!');
@@ -42,4 +47,11 @@ function run() {
     }
 }
 
-
+function getData(result) {
+    var F = result.currently.apparentTemperature;
+    var icon = result.currently.icon;
+    var summary = result.currently.summary;
+    console.log(result.currently.apparentTemperature);
+    console.log(result.currently.icon);
+    console.log(result.currently.summary);
+}
