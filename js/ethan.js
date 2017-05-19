@@ -13,8 +13,8 @@ $(document).ready(function(){
 
 
 //rain: Bring an umbrella! You don't want to get wet.
-//snow: Stay inside and have some hot coco
-//sleet: Stay inside and have some hot coco
+//snow: Stay inside and have some hot cocoa
+//sleet: Stay inside and have some hot cocoa
 //wind & HOT: Fly a kite and dress light. It's hot out there.
 //wind & WARM: It's a good day to go out for a trip to the beach. Have fun.
 //wind & COLD: Bring a windbreaker if you're going out. Kite flying is really fun!
@@ -22,15 +22,15 @@ $(document).ready(function(){
 //fog & HOT: If you're going out, remember to put on sunscreen. It's hot today. Remember to hydrate!
 //fog & WARM: It's the perfect day for a run in the outdoors. Have fun out there!
 //fog & COLD: Remember to wear a sweater if you're going outside. It's cold!
-//fog & FRIGID: Stay inside and have some hot coco.
+//fog & FRIGID: Stay inside and have some hot cocoa.
 //cloudy & HOT: If you're going out, wear shorts and a t-shirt. It's hot today. Remember to hydrate!
 //cloudy & WARM: It's the perfect day for a run in the outdoors. Have fun out there!
 //cloudy & COLD: Remember to wear a sweater if you're going outside. It's cold!
 //clear-day & HOT: If you're going out, remember to put on sunscreen. It's hot today. Remember to hydrate!
 //clear-day & WARM: Have fun! Go outside and enjoy yourself. It's a lovely day!
 //clear-day & COLD: It's a beautiful day! Remember to wear a sweater if you're going outside. It's cold!
-//clear-day & FRIGID: The sky is clear, and water is freezing over. Wear a coat, or stay inside and have some hot coco.
+//clear-day & FRIGID: The sky is clear, and water is freezing over. Wear a coat, or stay inside and have some hot cocoa.
 //clear-night & HOT: If you're going out, there's no need to bring a jacket. Be careful, it's dark out.
 //clear-night & WARM: If you're going out, there's no need to bring a jacket. Be careful, it's dark out.
 //clear-night & COLD: If you're going out, bring a coat. It's cold out there.
-//clear-night & FRIGID: Stay inside and have some hot coco by the fire.
+//clear-night & FRIGID: Stay inside and have some hot cocoa by the fire.
