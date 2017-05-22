@@ -72,7 +72,7 @@ function run() {
     }
 
         if (F > 80) {
-        if (icon == "clear-day") {
+            if (icon == "clear-day") {
 
         } else if (icon == "clear-night") {
 
