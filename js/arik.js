@@ -53,14 +53,15 @@ function run() {
     }
 
     function getData(result) {
-        var F = result.currently.apparentTemperature;
-        var icon = result.currently.icon;
-        var summary = result.currently.summary;
-        var cloudCover = result.currently.cloudCover;
-        var humidity = result.currently.humidity;
-        var precipProbability = result.currently.precipProbability;
-        var visibility = result.currently.visibility;
-        var windSpeed = result.currently.windSpeed;
+         F = result.currently.apparentTemperature;
+         icon = result.currently.icon;
+         summary = result.currently.summary;
+         cloudCover = result.currently.cloudCover;
+         humidity = result.currently.humidity;
+         precipProbability = result.currently.precipProbability;
+         visibility = result.currently.visibility;
+         windSpeed = result.currently.windSpeed;
+        display();
         console.log(F);
         console.log(icon);
         console.log(summary);
@@ -70,29 +71,10 @@ function run() {
         console.log(visibility);
         console.log(windSpeed);
     }
-
+    function display() {
+        document.getElementById("temp").innerHTML = F;
+        funtion ()
         if (F > 80) {
-            if (icon == "clear-day") {
-
-        } else if (icon == "clear-night") {
-
-        } else if (icon == "rain") {
-
-        } else if (icon == "snow") {
-
-        } else if (icon == "sleet") {
-
-        } else if (icon == "wind") {
-
-        } else if (icon == "fog") {
-
-        } else if (icon == "cloudy") {
-
-        } else if (icon == "partly-cloudy-day") {
-
-        } else if (icon == "partly-cloudy-night") {
-
-        } else if (60 < F < 80) {
             if (icon == "clear-day") {
 
             } else if (icon == "clear-night") {
@@ -113,54 +95,76 @@ function run() {
 
             } else if (icon == "partly-cloudy-night") {
 
-            } else if (35 < F < 60) {
-                if (icon == "clear-day") {
+            }
+        } else if (60 < F <= 80) {
+            if (icon == "clear-day") {
 
-                } else if (icon == "clear-night") {
+            } else if (icon == "clear-night") {
 
-                } else if (icon == "rain") {
+            } else if (icon == "rain") {
 
-                } else if (icon == "snow") {
+            } else if (icon == "snow") {
 
-                } else if (icon == "sleet") {
+            } else if (icon == "sleet") {
 
-                } else if (icon == "wind") {
+            } else if (icon == "wind") {
 
-                } else if (icon == "fog") {
+            } else if (icon == "fog") {
 
-                } else if (icon == "cloudy") {
+            } else if (icon == "cloudy") {
 
-                } else if (icon == "partly-cloudy-day") {
+            } else if (icon == "partly-cloudy-day") {
 
-                } else if (icon == "partly-cloudy-night") {
+            } else if (icon == "partly-cloudy-night") {
 
-                } else if (F < 35) {
-                    if (icon == "clear-day") {
+            }
+        } else if (35 < F <= 60 ) {
+            if (icon == "clear-day") {
 
-                    } else if (icon == "clear-night") {
+            } else if (icon == "clear-night") {
 
-                    } else if (icon == "rain") {
+            } else if (icon == "rain") {
 
-                    } else if (icon == "snow") {
+            } else if (icon == "snow") {
 
-                    } else if (icon == "sleet") {
+            } else if (icon == "sleet") {
 
-                    } else if (icon == "wind") {
+            } else if (icon == "wind") {
 
-                    } else if (icon == "fog") {
+            } else if (icon == "fog") {
 
-                    } else if (icon == "cloudy") {
+            } else if (icon == "cloudy") {
 
-                    } else if (icon == "partly-cloudy-day") {
+            } else if (icon == "partly-cloudy-day") {
 
-                    } else if (icon == "partly-cloudy-night") {
+            } else if (icon == "partly-cloudy-night") {
 
-                    }
-                }
+            }
+        } else if ( F <= 35) {
+            if (icon == "clear-day") {
+
+            } else if (icon == "clear-night") {
+
+            } else if (icon == "rain") {
+
+            } else if (icon == "snow") {
+
+            } else if (icon == "sleet") {
+
+            } else if (icon == "wind") {
+
+            } else if (icon == "fog") {
+
+            } else if (icon == "cloudy") {
+
+            } else if (icon == "partly-cloudy-day") {
+
+            } else if (icon == "partly-cloudy-night") {
 
             }
         }
     }
+
 }
 
 
