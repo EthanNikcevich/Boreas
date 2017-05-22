@@ -9,7 +9,7 @@ $(document).ready(function(){
 //35<F<=60 = COLD
 //F<=35 = FRIGID
 
-//clear-day, clear-night, rain, snow, sleet, wind, fog, cloudy, partly-cloudy-day, partly-cloudy-night
+//clear-day, clear-night, partly-cloudy-day, partly-cloudy-night, cloudy, rain, sleet, snow, wind, fog,
 
 
 //rain: Bring an umbrella! You don't want to get wet.
@@ -31,11 +31,15 @@ $(document).ready(function(){
 //partly-cloudy-day & WARM: It's the perfect day for a run in the outdoors. Have fun out there!
 //partly-cloudy-day & COLD: Remember to wear a sweater if you're going outside. It's cold!
 //partly-cloudy-day & FRIGID: It's freezing out there. Wear a coat, and bring your thermos!
+//partly-cloudy-night & HOT: If you're going outside, there's no need to bring a jacket. Be careful, it's dark out.
+//partly-cloudy-night & WARM: If you're going outside, there's no need to bring a jacket. Be careful, it's dark out.
+//partly-cloudy-night & COLD: If you're going out, bring a coat. It's cold out there.
+//partly-cloudy-night & FRIGID: Stay inside and have some hot cocoa by the fire.
 //clear-day & HOT: If you're going out, remember to put on sunscreen. It's hot today. Remember to hydrate!
 //clear-day & WARM: Have fun! Go outside and enjoy yourself. It's a lovely day!
 //clear-day & COLD: It's a beautiful day! Remember to wear a sweater if you're going outside. It's cold!
 //clear-day & FRIGID: The sky is clear, and water is freezing over. Wear a coat, or stay inside and have some hot cocoa.
-//clear-night & HOT: If you're going out, there's no need to bring a jacket. Be careful, it's dark out.
+//clear-night & HOT: If you're going outside, there's no need to bring a jacket. Be careful, it's dark out.
 //clear-night & WARM: If you're going out, there's no need to bring a jacket. Be careful, it's dark out.
 //clear-night & COLD: If you're going out, bring a coat. It's cold out there.
 //clear-night & FRIGID: Stay inside and have some hot cocoa by the fire.
