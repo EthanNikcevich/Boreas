@@ -39,13 +39,6 @@ h2 {
     background-color: #78bbd8;
 }
 
-label {
-    font-family: 'Corben', Georgia, Times, serif;
-    font-size: 1.5em;
-    line-height: 1.42857143;
-    color: #333;
-    background-color: #78bbd8;
-}
 
 p,
 div {
@@ -60,9 +53,4 @@ a:visited {
 
 a:hover {
     text-decoration: underline;
-}
-
-#maintable td.blue {
-    color: #78bbd8;
-;
 }
