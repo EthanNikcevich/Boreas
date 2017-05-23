@@ -44,7 +44,6 @@ function run() {
             success: function (result) {
                 console.log(result);
                 getData(result);
-                console.log("test");
             },
             error: function () {
                 alert('Failed!');
