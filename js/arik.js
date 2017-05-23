@@ -60,6 +60,7 @@ function run() {
          precipProbability = result.currently.precipProbability;
          visibility = result.currently.visibility;
          windSpeed = result.currently.windSpeed;
+        iconGrab();
         display();
         console.log(F);
         console.log(icon);
