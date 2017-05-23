@@ -1,4 +1,5 @@
 function iconGrab() {
+
    var iconArray = [];
    iconArray[0] = new Array("clear-day", "https://cdn4.iconfinder.com/data/icons/fitness-vol-2/48/65-512.png");
    iconArray[1] = new Array("clear-night", "https://cdn2.iconfinder.com/data/icons/wthr/32/moon-512.png");
@@ -10,9 +11,12 @@ function iconGrab() {
    iconArray[7] = new Array("cloudy", "https://img.clipartfest.com/279835b8115996c967019a50a8881ed7_cloudy-weather-clip-art-clipart-download-weather-cloudy-clipart_2400-2400.png");
    iconArray[8] = new Array("partly-cloudy-day", "http://icons.veryicon.com/png/System/Swanky%20Outlines/13%20Partly%20Cloudy.png");
    iconArray[9] = new Array("partly-cloudy-night", "http://icons.veryicon.com/256/System/Icons8%20Metro%20Style/Weather%20Partly%20cloudy%20night.png");
-   for (var i = 0; i <= iconArray.length; i++) {
+   for (var i = 0; i < iconArray.length; i++) {
+
       if (iconArray[i][0] == icon) {
          iconPNGURL = iconArray[i][1];
+          console.log(iconPNGURL);
+
       }
    }
 }
