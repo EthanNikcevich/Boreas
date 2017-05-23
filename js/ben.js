@@ -14,7 +14,7 @@ function iconGrab() {
    iconArray[8] = new Array("partly-cloudy-day", "http://icons.veryicon.com/png/System/Swanky%20Outlines/13%20Partly%20Cloudy.png");
    iconArray[9] = new Array("partly-cloudy-night", "http://icons.veryicon.com/256/System/Icons8%20Metro%20Style/Weather%20Partly%20cloudy%20night.png");
    for (var i = 0; i<=iconArray.length; i++) {
-      if (iconArray[i][0] == result.currently.icon) {}
+      if (iconArray[i][0] === result.currently.icon) {}
       iconPNGURL = iconArray[i][1];
-   }
+   };
 };
