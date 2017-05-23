@@ -1,6 +1,3 @@
-
-
-
 function run() {
     F = undefined;
     icon = undefined;
