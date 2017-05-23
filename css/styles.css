@@ -4,6 +4,28 @@
     background-repeat: no-repeat;
 }
 
-div {
+.temp {
+    font-family: 'Corben', Georgia, Times, serif;
+    font-size: 20px;
+    line-height: 1.42857143;
+    color: #ff0024;
+    background-color: #fcfff6;
+    text-align: center;
+}
 
+.summary {
+    font-family: 'Corben', Georgia, Times, serif;
+    font-size: 20px;
+    line-height: 1.42857143;
+    color: #ff0024;
+    background-color: #fcfff6;
+    text-align: center;
+}
+.icon {
+    font-family: 'Corben', Georgia, Times, serif;
+    font-size: 20px;
+    line-height: 1.42857143;
+    color: #ff0024;
+    background-color: #fcfff6;
+    text-align: center;
 }
