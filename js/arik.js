@@ -44,12 +44,14 @@ function run() {
             success: function (result) {
                 console.log(result);
                 getData(result);
+
             },
             error: function () {
                 alert('Failed!');
             }
         });
     }
+
 
     function getData(result) {
          F = result.currently.apparentTemperature;
@@ -60,7 +62,6 @@ function run() {
          precipProbability = result.currently.precipProbability;
          visibility = result.currently.visibility;
          windSpeed = result.currently.windSpeed;
-        iconGrab();
         display();
         console.log(F);
         console.log(icon);
@@ -71,10 +72,13 @@ function run() {
         console.log(visibility);
         console.log(windSpeed);
     }
+
     function display() {
+        iconGrab();
         document.getElementById("temp").innerHTML = F;
         document.getElementById("summary").innerHTML = summary;
-        document.getElementById("icon").innerHTML = iconPNG;
+        document.getElementById("icon").innerHTML = iconPNGURL;
+
 
         if (F > 80) {
             if (icon == "clear-day") {
