@@ -15,8 +15,6 @@ $(document).ready(function() {
    iconArray[9] = new Array("partly-cloudy-night", "http://icons.veryicon.com/256/System/Icons8%20Metro%20Style/Weather%20Partly%20cloudy%20night.png");
    for (var i = 0; i<=iconArray.length; i++) {
       if (iconArray[i][0] == result.currently.icon) {}
-      iconPNG = iconArray[i][1];
+      iconPNGURL = iconArray[i][1];
    }
 });
-
-//stnsrtn
