@@ -72,6 +72,9 @@ function run() {
     }
     function display() {
         document.getElementById("temp").innerHTML = F;
+        document.getElementById("summary").innerHTML = summary;
+        document.getElementById("icon").innerHTML = iconPNG;
+
         if (F > 80) {
             if (icon == "clear-day") {
 
