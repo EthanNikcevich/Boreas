@@ -74,7 +74,7 @@ function run() {
         iconGrab();
         document.getElementById("temp").innerHTML = F;
         document.getElementById("summary").innerHTML = summary;
-        document.getElementById("icon").innerHTML = iconPNGURL;
+        document.getElementById("icon").src = iconPNGURL;
 
 
         if (F > 80) {
