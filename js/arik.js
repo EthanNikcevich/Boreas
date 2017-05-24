@@ -76,8 +76,8 @@ function run() {
     function display() {
         iconGrab();
         document.getElementById("temp").innerHTML = F +"°F";
-        document.getElementById("address").innerHTML = address;
         document.getElementById("summary").innerHTML = summary;
+        document.getElementById("address").innerHTML = address;
         document.getElementById("icon").src = iconPNGURL;
 
 
