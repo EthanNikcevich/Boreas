@@ -1,3 +1,8 @@
+
+
+
+
+
 function run() {
     F = undefined;
     icon = undefined;
@@ -10,9 +15,9 @@ function run() {
     address = undefined;
 
     var city = document.getElementById("city").value;
-    var state = document.getElementById("state").value;
 
-    var input2 = "https://maps.googleapis.com/maps/api/geocode/json?address=" + city + ",+" + state + "&key=AIzaSyCq7C2oo_IggNRS6KKMYM0VrTH3Tt8J2Ag"
+
+    var input2 = "https://maps.googleapis.com/maps/api/geocode/json?address=" + city + "&key=AIzaSyCq7C2oo_IggNRS6KKMYM0VrTH3Tt8J2Ag"
     $.ajax({
         // key = AIzaSyCq7C2oo_IggNRS6KKMYM0VrTH3Tt8J2Ag
         url: input2,
@@ -75,6 +80,7 @@ function run() {
 
     function display() {
         iconGrab();
+        convertC();
         document.getElementById("temp").innerHTML = F +"°F";
         document.getElementById("summary").innerHTML = summary;
         document.getElementById("address").innerHTML = address;
@@ -172,6 +178,11 @@ function run() {
         }
     }
 
+}
+function convertC() {
+    C = (F - 32) * (5 / 9);
+    C = (Math.round(C * 100) / 100) + "°C";
+    console.log(C);
 }
 
 
