@@ -7,6 +7,7 @@ function run() {
     precipProbability = undefined;
     visibility = undefined;
     windSpeed = undefined;
+    address = undefined;
 
     var city = document.getElementById("city").value;
     var state = document.getElementById("state").value;
@@ -20,6 +21,8 @@ function run() {
         dataType: 'json',
         success: function (result) {
             console.log(result);
+            address = result.results[0].formatted_address;
+            // Address = result.results[0].address_components[0].long_name + (", ") + result.results[0].address_components[2].long_name;
             getWeather(result.results[0].geometry.location.lat, result.results[0].geometry.location.lng)
         },
         error: function () {
@@ -60,19 +63,20 @@ function run() {
          visibility = result.currently.visibility;
          windSpeed = result.currently.windSpeed;
         display();
-        console.log(F);
-        console.log(icon);
-        console.log(summary);
-        console.log(cloudCover);
-        console.log(humidity);
-        console.log(precipProbability);
-        console.log(visibility);
-        console.log(windSpeed);
+        // console.log(F);
+        // console.log(icon);
+        // console.log(summary);
+        // console.log(cloudCover);
+        // console.log(humidity);
+        // console.log(precipProbability);
+        // console.log(visibility);
+        // console.log(windSpeed);
     }
 
     function display() {
         iconGrab();
-        document.getElementById("temp").innerHTML = F;
+        document.getElementById("temp").innerHTML = F +"°F";
+        document.getElementById("address").innerHTML = address;
         document.getElementById("summary").innerHTML = summary;
         document.getElementById("icon").src = iconPNGURL;
 
