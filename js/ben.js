@@ -19,4 +19,13 @@ function iconGrab() {
 
       }
    }
+
 }
+
+function drawImage(x, y){
+   var iconImage = new Image();
+   iconImage.src = iconPNGURL;
+   context.drawImage(iconImage, x, y);
+
+}
+

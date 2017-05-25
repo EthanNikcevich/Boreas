@@ -25,6 +25,9 @@
     line-height: 1.42857143;
     color: #ff0024;
     text-align: center;
+    width: 200px;
+    height: 200px;
+    border: none;
 }
 
 #location {
