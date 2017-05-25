@@ -4,28 +4,43 @@
     background-repeat: no-repeat;
 }
 
-.temp {
-    font-family: 'Corben', Georgia, Times, serif;
+#temp {
+    font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
     font-size: 20px;
     line-height: 1.42857143;
     color: #ff0024;
-    background-color: #fcfff6;
     text-align: center;
 }
 
-.summary {
-    font-family: 'Corben', Georgia, Times, serif;
+#summary {
+    font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
     font-size: 20px;
     line-height: 1.42857143;
     color: #ff0024;
-    background-color: #fcfff6;
     text-align: center;
 }
-.icon {
-    font-family: 'Corben', Georgia, Times, serif;
+#icon {
+    font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
     font-size: 20px;
     line-height: 1.42857143;
     color: #ff0024;
-    background-color: #fcfff6;
     text-align: center;
+}
+
+#location {
+    text-align: center;
+    margin: 200px auto;
+    width: 50%;
+    border-radius: 3px;
+    box-shadow: 0 2px 5px 2px rgba(0,0,0,0.5);
+    background-color:#fff;
+}
+
+#enter {
+    text-align: center;
+    margin: -195px auto;
+    width: 50%;
+    border-radius: 3px;
+    box-shadow: 0 2px 5px 2px rgba(0,0,0,0.5);
+    background-color:#fff;
 }
