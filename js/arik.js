@@ -16,7 +16,6 @@ function run() {
 
     var location = document.getElementById("location").value;
 
-
     var input2 = "https://maps.googleapis.com/maps/api/geocode/json?address=" + location + "&key=AIzaSyCq7C2oo_IggNRS6KKMYM0VrTH3Tt8J2Ag"
     $.ajax({
         // key = AIzaSyCq7C2oo_IggNRS6KKMYM0VrTH3Tt8J2Ag
