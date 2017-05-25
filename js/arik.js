@@ -82,6 +82,7 @@ function run() {
         convertC();
         document.getElementById("temp").innerHTML = F +"°F";
         document.getElementById("summary").innerHTML = summary;
+        document.getElementById("precip").innerHTML = (precipProbability * 100) + " % chance of rain";
         document.getElementById("address").innerHTML = address;
         document.getElementById("icon").src = iconPNGURL;
 
