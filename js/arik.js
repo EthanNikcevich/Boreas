@@ -14,7 +14,7 @@ function run() {
     windSpeed = undefined;
     address = undefined;
 
-    var location = document.getElementById("location1").value;
+    var location = document.getElementById("location").value;
 
     var input2 = "https://maps.googleapis.com/maps/api/geocode/json?address=" + location + "&key=AIzaSyCq7C2oo_IggNRS6KKMYM0VrTH3Tt8J2Ag"
     $.ajax({
