@@ -87,7 +87,7 @@ function run() {
         document.getElementById("icon").src = iconPNGURL;
 
 
-
+        console.log("HI");
         if (F > 80) {
             if (icon == "clear-day") {
 
@@ -112,45 +112,45 @@ function run() {
             }
         } else if (60 < F <= 80) {
             if (icon == "clear-day") {
-
+                console.log(cloudyWARM)
             } else if (icon == "clear-night") {
-
+                console.log(cloudyWARM)
             } else if (icon == "rain") {
-
+                console.log(cloudyWARM)
             } else if (icon == "snow") {
-
+                console.log(cloudyWARM)
             } else if (icon == "sleet") {
-
+                console.log(cloudyWARM)
             } else if (icon == "wind") {
-
+                console.log(cloudyWARM)
             } else if (icon == "fog") {
-
+                console.log(cloudyWARM)
             } else if (icon == "cloudy") {
-
+                document.getElementById("activity").innerHTML = cloudyWARM;
             } else if (icon == "partly-cloudy-day") {
-
+                console.log(cloudyWARM)
             } else if (icon == "partly-cloudy-night") {
 
             }
         } else if (35 < F <= 60 ) {
             if (icon == "clear-day") {
-
+                console.log(cloudyWARM)
             } else if (icon == "clear-night") {
-
+                console.log(cloudyWARM)
             } else if (icon == "rain") {
-
+                console.log(cloudyWARM)
             } else if (icon == "snow") {
-
+                console.log(cloudyWARM)
             } else if (icon == "sleet") {
-
+                console.log(cloudyWARM)
             } else if (icon == "wind") {
-
+                console.log(cloudyWARM)
             } else if (icon == "fog") {
-
+console.log(cloudyWARM)
             } else if (icon == "cloudy") {
-
+                document.getElementById("activity").innerHTML = cloudyWARM;
             } else if (icon == "partly-cloudy-day") {
-
+                console.log(cloudyWARM)
             } else if (icon == "partly-cloudy-night") {
 
             }
