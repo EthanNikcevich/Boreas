@@ -58,14 +58,14 @@ function run() {
 
 
     function getData(result) {
-         F = result.currently.apparentTemperature;
-         icon = result.currently.icon;
-         summary = result.currently.summary;
-         cloudCover = result.currently.cloudCover;
-         humidity = result.currently.humidity;
-         precipProbability = result.currently.precipProbability;
-         visibility = result.currently.visibility;
-         windSpeed = result.currently.windSpeed;
+        F = result.currently.apparentTemperature;
+        icon = result.currently.icon;
+        summary = result.currently.summary;
+        cloudCover = result.currently.cloudCover;
+        humidity = result.currently.humidity;
+        precipProbability = result.currently.precipProbability;
+        visibility = result.currently.visibility;
+        windSpeed = result.currently.windSpeed;
         display();
         // console.log(F);
         // console.log(icon);
@@ -185,7 +185,3 @@ function convertC() {
     C = (Math.round(C * 100) / 100) + "°C";
     console.log(C);
 }
-
-
-
-
