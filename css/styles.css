@@ -32,8 +32,17 @@
     border: none;
     background: none;
 }
-#logo {
-    text-align: center;
+#logo{
+    width: 100px;
+    display: inline-flex;
+    float: right;
+}
+
+#logo img{
+    margin: auto 5px;
+    float: right;
+    width: 150px;
+    height: 38px;
 }
 
 #bar1 {
