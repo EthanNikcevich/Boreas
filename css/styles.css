@@ -33,16 +33,15 @@
     background: none;
 }
 #logo{
-    width: 100px;
-    display: inline-flex;
-    float: right;
+    width: 185px;
+    position: absolute;
+    left: 43%
 }
 
 #logo img{
     margin: auto 5px;
-    float: right;
-    width: 150px;
-    height: 38px;
+    width: 600px;
+    height: 152px;
 }
 
 #bar1 {
