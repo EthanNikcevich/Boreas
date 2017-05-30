@@ -96,91 +96,91 @@ function run() {
         console.log("HI");
         if (F > 80) {
             if (icon == "clear-day") {
-
+                document.getElementById("activity").innerHTML=cleardayHOT
             } else if (icon == "clear-night") {
-
+                document.getElementById("activity").innerHTML=clearnightHOT
             } else if (icon == "rain") {
-
+                document.getElementById("activity").innerHTML=rainDesc
             } else if (icon == "snow") {
-
+                document.getElementById("activity").innerHTML=snowDesc
             } else if (icon == "sleet") {
-
+                document.getElementById("activity").innerHTML=sleetDesc
             } else if (icon == "wind") {
-
+                document.getElementById("activity").innerHTML=windHOT
             } else if (icon == "fog") {
-
+                document.getElementById("activity").innerHTML=fogHOT
             } else if (icon == "cloudy") {
-
+                document.getElementById("activity").innerHTML=cloudyHOT
             } else if (icon == "partly-cloudy-day") {
-
+                document.getElementById("activity").innerHTML=partlycloudydayHOT
             } else if (icon == "partly-cloudy-night") {
-
+                document.getElementById("activity").innerHTML=partlycloudynightHOT
             }
         } else if (60 < F <= 80) {
             if (icon == "clear-day") {
-                console.log(cloudyWARM)
+                document.getElementById("activity").innerHTML=cleardayWARM
             } else if (icon == "clear-night") {
-                console.log(cloudyWARM)
+                document.getElementById("activity").innerHTML=clearnightWARM
             } else if (icon == "rain") {
-                console.log(cloudyWARM)
+                document.getElementById("activity").innerHTML=rainDesc
             } else if (icon == "snow") {
-                console.log(cloudyWARM)
+                document.getElementById("activity").innerHTML=snowDesc
             } else if (icon == "sleet") {
-                console.log(cloudyWARM)
+                document.getElementById("activity").innerHTML=sleetDesc
             } else if (icon == "wind") {
-                console.log(cloudyWARM)
+                document.getElementById("activity").innerHTML=windWARM
             } else if (icon == "fog") {
-                console.log(cloudyWARM)
+                document.getElementById("activity").innerHTML=fogWARM
             } else if (icon == "cloudy") {
-                document.getElementById("activity").innerHTML = cloudyWARM;
+                document.getElementById("activity").innerHTML=cloudyWARM
             } else if (icon == "partly-cloudy-day") {
-                console.log(cloudyWARM)
+                document.getElementById("activity").innerHTML=partlycloudydayWARM
             } else if (icon == "partly-cloudy-night") {
-
+                document.getElementById("activity").innerHTML=partlycloudynightWARM
             }
         } else if (35 < F <= 60 ) {
             if (icon == "clear-day") {
-                console.log(cloudyWARM)
+                document.getElementById("activity").innerHTML=cleardayCOLD
             } else if (icon == "clear-night") {
-                console.log(cloudyWARM)
+                document.getElementById("activity").innerHTML=clearnightCOLD
             } else if (icon == "rain") {
-                console.log(cloudyWARM)
+                document.getElementById("activity").innerHTML=rainDesc
             } else if (icon == "snow") {
-                console.log(cloudyWARM)
+                document.getElementById("activity").innerHTML=snowDesc
             } else if (icon == "sleet") {
-                console.log(cloudyWARM)
+                document.getElementById("activity").innerHTML=sleetDesc
             } else if (icon == "wind") {
-                console.log(cloudyWARM)
+                document.getElementById("activity").innerHTML=windCOLD
             } else if (icon == "fog") {
-console.log(cloudyWARM)
+                document.getElementById("activity").innerHTML=fogCOLD
             } else if (icon == "cloudy") {
-                document.getElementById("activity").innerHTML = cloudyWARM;
+                document.getElementById("activity").innerHTML=cloudyCOLD
             } else if (icon == "partly-cloudy-day") {
-                console.log(cloudyWARM)
+                document.getElementById("activity").innerHTML=partlycloudydayCOLD
             } else if (icon == "partly-cloudy-night") {
-
+                document.getElementById("activity").innerHTML=partlycloudynightCOLD
             }
         } else if ( F <= 35) {
             if (icon == "clear-day") {
-
+                document.getElementById("activity").innerHTML=cleardayFRIGID
             } else if (icon == "clear-night") {
-
+                document.getElementById("activity").innerHTML=clearnightFRIGID
             } else if (icon == "rain") {
-
+                document.getElementById("activity").innerHTML=rainDesc
             } else if (icon == "snow") {
-
+                document.getElementById("activity").innerHTML=snowDesc
             } else if (icon == "sleet") {
-
+                document.getElementById("activity").innerHTML=sleetDesc
             } else if (icon == "wind") {
-
+                document.getElementById("activity").innerHTML=windFRIGID
             } else if (icon == "fog") {
-
+                document.getElementById("activity").innerHTML=fogFRIGID
             } else if (icon == "cloudy") {
-
+                document.getElementById("activity").innerHTML=cloudyFRIGID
             } else if (icon == "partly-cloudy-day") {
-
+                document.getElementById("activity").innerHTML=partlycloudydayFRIGID
             } else if (icon == "partly-cloudy-night") {
-
+                document.getElementById("activity").innerHTML=partlycloudynightFRIGID
             }
         }
     }

@@ -30,6 +30,7 @@ cloudyFRIGID= "It's freezing out there. Wear a coat, and bring your thermos!";
 partlycloudydayHOT= "If you're going out, wear shorts and a t-shirt. It's hot today. Remember to hydrate!";
 partlycloudydayWARM= "It's the perfect day for a run in the outdoors. Have fun out there!";
 partlycloudydayCOLD= "Remember to wear a sweater if you're going outside. It's cold!";
+partlycloudydayFRIGID= "Stay inside and have some hot cocoa by the fire.";
 partlycloudynightHOT= "If you're going outside, there's no need to bring a jacket. Be careful, it's dark out.";
 partlycloudynightWARM= "If you're going outside, there's no need to bring a jacket. Be careful, it's dark out.";
 partlycloudynightCOLD= "If you're going out, bring a coat. It's cold out there.";
