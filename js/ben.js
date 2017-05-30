@@ -1,6 +1,6 @@
 function iconGrab() {
 
-   var iconArray = [];
+   iconArray = [];
    iconArray[0] = new Array("clear-day", "https://cdn4.iconfinder.com/data/icons/fitness-vol-2/48/65-512.png");
    iconArray[1] = new Array("clear-night", "https://cdn2.iconfinder.com/data/icons/wthr/32/moon-512.png");
    iconArray[2] = new Array("rain", "http://pngimages.net/sites/default/files/rain-png-image-54887.png");
