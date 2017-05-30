@@ -1,7 +1,11 @@
-
-
-
-
+$(document).ready(function(){
+    $("#page2").hide();
+    $("#page1").show();
+    $("#button").click(function(){
+        $("#page1").hide();
+        $("#page2").show();
+    });
+});
 
 function run() {
     F = undefined;
@@ -185,7 +189,3 @@ function convertC() {
     C = (Math.round(C * 100) / 100) + "°C";
     console.log(C);
 }
-
-
-
-
