@@ -78,7 +78,7 @@ function run() {
         // console.log(summary);
         // console.log(cloudCover);
         // console.log(humidity);
-        console.log(precipProbability);
+        // console.log(precipProbability);
         //console.log(visibility);
         // console.log(windSpeed);
     }
