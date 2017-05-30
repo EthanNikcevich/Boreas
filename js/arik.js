@@ -7,6 +7,7 @@ $(document).ready(function(){
     });
 });
 
+
 function run() {
     F = undefined;
     icon = undefined;
