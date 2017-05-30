@@ -39,4 +39,4 @@ function page2Background() {
 //Potential GIFs
 //storm gif https://s-media-cache-ak0.pinimg.com/originals/ac/50/19/ac501913ebf72f75898e7d5c32e09c17.gif
 //rain gif https://media.tenor.co/images/7814051a512a18d4d4c90197b97ce741/tenor.gif
-//
+// aelrubaoieurbvpieurb
