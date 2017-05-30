@@ -1,3 +1,5 @@
+
+
 $(document).ready(function(){
     $("#page2").hide();
     $("#page1").show();
@@ -6,7 +8,6 @@ $(document).ready(function(){
         $("#page2").show();
     });
 });
-
 
 function run() {
     F = undefined;
@@ -63,14 +64,14 @@ function run() {
 
 
     function getData(result) {
-         F = result.currently.apparentTemperature;
-         icon = result.currently.icon;
-         summary = result.currently.summary;
-         cloudCover = result.currently.cloudCover;
-         humidity = result.currently.humidity;
-         precipProbability = result.currently.precipProbability;
-         visibility = result.currently.visibility;
-         windSpeed = result.currently.windSpeed;
+        F = result.currently.apparentTemperature;
+        icon = result.currently.icon;
+        summary = result.currently.summary;
+        cloudCover = result.currently.cloudCover;
+        humidity = result.currently.humidity;
+        precipProbability = result.currently.precipProbability;
+        visibility = result.currently.visibility;
+        windSpeed = result.currently.windSpeed;
         display();
         // console.log(F);
         // console.log(icon);
@@ -92,7 +93,7 @@ function run() {
         document.getElementById("icon").src = iconPNGURL;
 
 
-
+        console.log("HI");
         if (F > 80) {
             if (icon == "clear-day") {
 
@@ -117,45 +118,45 @@ function run() {
             }
         } else if (60 < F <= 80) {
             if (icon == "clear-day") {
-
+                console.log(cloudyWARM)
             } else if (icon == "clear-night") {
-
+                console.log(cloudyWARM)
             } else if (icon == "rain") {
-
+                console.log(cloudyWARM)
             } else if (icon == "snow") {
-
+                console.log(cloudyWARM)
             } else if (icon == "sleet") {
-
+                console.log(cloudyWARM)
             } else if (icon == "wind") {
-
+                console.log(cloudyWARM)
             } else if (icon == "fog") {
-
+                console.log(cloudyWARM)
             } else if (icon == "cloudy") {
-
+                document.getElementById("activity").innerHTML = cloudyWARM;
             } else if (icon == "partly-cloudy-day") {
-
+                console.log(cloudyWARM)
             } else if (icon == "partly-cloudy-night") {
 
             }
         } else if (35 < F <= 60 ) {
             if (icon == "clear-day") {
-
+                console.log(cloudyWARM)
             } else if (icon == "clear-night") {
-
+                console.log(cloudyWARM)
             } else if (icon == "rain") {
-
+                console.log(cloudyWARM)
             } else if (icon == "snow") {
-
+                console.log(cloudyWARM)
             } else if (icon == "sleet") {
-
+                console.log(cloudyWARM)
             } else if (icon == "wind") {
-
+                console.log(cloudyWARM)
             } else if (icon == "fog") {
-
+console.log(cloudyWARM)
             } else if (icon == "cloudy") {
-
+                document.getElementById("activity").innerHTML = cloudyWARM;
             } else if (icon == "partly-cloudy-day") {
-
+                console.log(cloudyWARM)
             } else if (icon == "partly-cloudy-night") {
 
             }
