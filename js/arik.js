@@ -1,7 +1,7 @@
 
 
 $(document).ready(function(){
-    $("#page2").hide();
+    $("#error, #page2").hide();
     $("#page1").show();
     $("#button").click(function(){
         $("#page1").hide();
@@ -12,7 +12,7 @@ $(document).ready(function(){
 $(document).ready(function(){
     $("#page2").hide();
     $("#page1").show();
-    $("#backbutton").click(function(){
+    $("#backbutton").click(function () {
         $("#page2").hide();
         $("#page1").show();
     });
@@ -29,6 +29,18 @@ function run() {
     address = undefined;
 
     var location = document.getElementById("location").value;
+
+    if(location.length < 1) {
+
+
+        $("#button").click(function() {
+            $("#error").show();
+            $("#page1").show();
+            $("#page2").hide();
+        });
+
+    } else {
+
 
     var input2 = "https://maps.googleapis.com/maps/api/geocode/json?address=" + location + "&key=AIzaSyCq7C2oo_IggNRS6KKMYM0VrTH3Tt8J2Ag"
     $.ajax({
@@ -50,6 +62,7 @@ function run() {
         }
     });
 
+        }
 
     function getWeather(lat, lng) {
 

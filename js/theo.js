@@ -1,3 +1,8 @@
-/**
- * Created by h205p3 on 5/18/17.
- */
+
+$(document).ready(function(){
+    if(document.getElementById("location").innerhtml/=""){
+        $("#page2").hide();
+
+    }
+
+});
