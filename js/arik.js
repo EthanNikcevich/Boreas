@@ -41,6 +41,8 @@ function run() {
             console.log(result);
             address = result.results[0].formatted_address;
             // Address = result.results[0].address_components[0].long_name + (", ") + result.results[0].address_components[2].long_name;
+            latitude = result.results[0].geometry.location.lat;
+            longitude = result.results[0].geometry.location.lng;
             getWeather(result.results[0].geometry.location.lat, result.results[0].geometry.location.lng)
         },
         error: function () {
@@ -70,6 +72,20 @@ function run() {
         });
     }
 
+    function initMap() {
+        var uluru = {lat: latitude, lng: longitude};
+        var map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 11,
+            center: uluru
+        });
+        var marker = new google.maps.Marker({
+            position: uluru,
+            map: map
+        });
+    }
+
+
+
 
     function getData(result) {
         F = result.currently.apparentTemperature;
@@ -87,11 +103,12 @@ function run() {
         // console.log(cloudCover);
         // console.log(humidity);
         // console.log(precipProbability);
-        //console.log(visibility);
+        // console.log(visibility);
         // console.log(windSpeed);
     }
 
     function display() {
+        initMap();
         iconGrab();
         convertC();
         document.getElementById("temp").innerHTML = F +"°F";
@@ -100,8 +117,6 @@ function run() {
         document.getElementById("address").innerHTML = address;
         document.getElementById("icon").src = iconPNGURL;
 
-
-        console.log("HI");
         if (F > 80) {
             if (icon == "clear-day") {
                 document.getElementById("activity").innerHTML=cleardayHOT
