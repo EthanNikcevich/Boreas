@@ -16,7 +16,6 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
 </head>
-
 <body>
 <div data-role="page" id="page1">
     <div><img id="logo" src="http://i.imgur.com/Td9IW06.png"/></div>
@@ -30,8 +29,8 @@
 
 
 </div>
-<div data-role="page" id="page2">
 
+<div data-role="page" id="page2">
     <img id="icon"/>
 
     <div class="temp" id="temp"></div>
@@ -42,12 +41,12 @@
     <div class="activity" id="activity"></div>
     <div class="precip" id="precip"></div>
     <div class ="icons" ></div>
-    <div id ="back">
-        <button id = "backbutton" type="button" class="button" onclick="location.href='#page1';">Back</button>
-    </div>
 </div>
 
-
-
+<h2></h2>
+<div id="map"></div>
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCq7C2oo_IggNRS6KKMYM0VrTH3Tt8J2Ag&callback=initMap">
+</script>
 </body>
 </html>
