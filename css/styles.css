@@ -35,7 +35,8 @@
 #logo{
     width: 185px;
     position: absolute;
-    left: 43%
+    top: 50%;
+    left: 50%;
 }
 
 #logo img{
@@ -62,10 +63,9 @@
     background-color:#fff;
 }
 
-#backbutton {
+#button {
 
 }
-
 #page2 {
 
 }
