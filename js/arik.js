@@ -123,7 +123,6 @@ function run() {
     function display() {
         initMap();
         iconGrab();
-        convertC();
         document.getElementById("temp").innerHTML = F +"°F";
         document.getElementById("summary").innerHTML = summary;
         document.getElementById("precip").innerHTML = (precipProbability * 100) + " % chance of rain";
@@ -225,5 +224,9 @@ function run() {
 function convertC() {
     C = (F - 32) * (5 / 9);
     C = (Math.round(C * 100) / 100) + "°C";
-    console.log(C);
+    if(document.getElementById("temp").innerHTML==C) {
+        document.getElementById("temp").innerHTML = F+"°F";
+    } else {
+        document.getElementById("temp").innerHTML=C;
+    }
 }
