@@ -78,6 +78,12 @@
     background-color: #3f8dbf
 }
 
+#mapCover {
+    height: 350px;
+    width: 350px;
+    color: #3f8dbf;
+}
+
 #map {
     margin: 350px auto;
     width: 350px;
