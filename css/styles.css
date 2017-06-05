@@ -19,7 +19,7 @@
     font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
     font-size: 20px;
     line-height: 1.42857143;
-    color: #ff0024;
+    color: #000000;
     text-shadow: black;
     text-align: center;
 }
@@ -27,7 +27,7 @@
     font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
     font-size: 20px;
     line-height: 1.42857143;
-    color: #ff0024;
+    color: #000000;
     text-align: center;
     width: 200px;
     height: 200px;
@@ -35,12 +35,18 @@
     background: none;
 }
 #logo{
-    width: 185px;
     position: absolute;
-    left: 29%;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    margin-top: 370px;
+    width: 350px;
+    height: 350px;
+    border-radius: 175px;
 }
 #error{
-    color: #ff0024;
+    color: #000000;
     left: 50%;
     text-align: center;
     font-size: 30px;
@@ -75,17 +81,16 @@
 
 }
 #page2 {
-    background-color: #3f8dbf
-}
-
-#mapCover {
-    height: 350px;
-    width: 350px;
-    color: #3f8dbf;
+    background-color: #3f8dbf;
 }
 
 #map {
-    margin: 350px auto;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    margin-top: 350px;
     width: 350px;
     height: 350px;
     border-radius: 175px;

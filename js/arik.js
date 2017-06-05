@@ -1,11 +1,11 @@
 
 
 $(document).ready(function(){
-    $("#error, #page2").hide();
+    $("#error, #page2, #map").hide();
     $("#page1").show();
     $("#button").click(function(){
         $("#page1").hide();
-        $("#page2").show();
+        $("#page2, #map").show();
     });
 });
 
