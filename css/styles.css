@@ -14,7 +14,7 @@
     font-size: 20px;
     line-height: 1.42857143;
     color: #000000;
-    text-shadow: black;
+    text-shadow: -.001px 0 black, 0 .001px black, .001px 0 black, 0 -.001px black;
     text-align: center;
     margin-top: 50px;
 }
@@ -24,7 +24,7 @@
     font-size: 20px;
     line-height: 1.42857143;
     color: #000000;
-    text-shadow: black;
+    text-shadow: -.001px 0 black, 0 .001px black, .001px 0 black, 0 -.001px black;
     text-align: center;
 }
 #icon {
@@ -42,7 +42,7 @@
     font-size: 20px;
     line-height: 1.42857143;
     color: #000000;
-    text-shadow: black;
+    text-shadow: -.001px 0 black, 0 .001px black, .001px 0 black, 0 -.001px black;
     text-align: center;
 }
 #activity{
@@ -50,7 +50,7 @@
     font-size: 20px;
     line-height: 1.42857143;
     color: #000000;
-    text-shadow: black;
+    text-shadow: -.001px 0 black, 0 .001px black, .001px 0 black, 0 -.001px black;
     text-align: center;
 }
 #precip{
@@ -58,7 +58,7 @@
     font-size: 20px;
     line-height: 1.42857143;
     color: #000000;
-    text-shadow: black;
+    text-shadow: -.001px 0 black, 0 .001px black, .001px 0 black, 0 -.001px black;
     text-align: center;
 }
 #logo{
@@ -73,7 +73,9 @@
     border-radius: 175px;
 }
 #error{
+    font-family: Modeka;
     color: #000000;
+    text-shadow: -.001px 0 black, 0 .001px black, .001px 0 black, 0 -.001px black;
     left: 50%;
     text-align: center;
     font-size: 30px;
