@@ -9,14 +9,6 @@ $(document).ready(function(){
     });
 });
 
-$(document).ready(function(){
-    $("#page2").hide();
-    $("#page1").show();
-    $("#backbutton").click(function () {
-        $("#page2").hide();
-        $("#page1").show();
-    });
-});
 function run() {
     F = undefined;
     icon = undefined;
