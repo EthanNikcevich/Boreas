@@ -11,7 +11,7 @@
 
 #temp {
     font-family: Modeka;
-    font-size: 20px;
+    font-size: 30px;
     line-height: 1.42857143;
     color: #000000;
     text-shadow: -.001px 0 black, 0 .001px black, .001px 0 black, 0 -.001px black;
@@ -21,7 +21,7 @@
 
 #summary {
     font-family: Modeka;
-    font-size: 20px;
+    font-size: 30px;
     line-height: 1.42857143;
     color: #000000;
     text-shadow: -.001px 0 black, 0 .001px black, .001px 0 black, 0 -.001px black;
@@ -39,7 +39,7 @@
 }
 #address{
     font-family: Modeka;
-    font-size: 20px;
+    font-size: 30px;
     line-height: 1.42857143;
     color: #000000;
     text-shadow: -.001px 0 black, 0 .001px black, .001px 0 black, 0 -.001px black;
@@ -47,7 +47,7 @@
 }
 #activity{
     font-family: Modeka;
-    font-size: 20px;
+    font-size: 30px;
     line-height: 1.42857143;
     color: #000000;
     text-shadow: -.001px 0 black, 0 .001px black, .001px 0 black, 0 -.001px black;
@@ -55,7 +55,7 @@
 }
 #precip{
     font-family: Modeka;
-    font-size: 20px;
+    font-size: 30px;
     line-height: 1.42857143;
     color: #000000;
     text-shadow: -.001px 0 black, 0 .001px black, .001px 0 black, 0 -.001px black;
@@ -107,8 +107,16 @@
 
 
 #button {
-
+    font-family: Modeka;
+    color: #000000;
+    text-shadow: -.001px 0 black, 0 .001px black, .001px 0 black, 0 -.001px black;
+    font-size: 20px
 }
+#location {
+    font-family: Modeka;
+    font-size: 20px
+}
+
 #page2 {
     background-color: #3f8dbf;
 }
