@@ -98,7 +98,10 @@ function run() {
         summary = result.currently.summary;
         cloudCover = result.currently.cloudCover;
         humidity = result.currently.humidity;
-        precipProbability = result.currently.precipProbability;
+        precipProbabilityRaw = result.currently.precipProbability;
+        var a = precipProbabilityRaw.toString();
+        precipProbability = a.slice(0, 6);
+        console.log(precipProbability);
         visibility = result.currently.visibility;
         windSpeed = result.currently.windSpeed;
         display();
