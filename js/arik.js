@@ -1,17 +1,7 @@
-//g
-$(document).ready(function(){
-    $("#error, #page2, #map").hide();
-    $("#page1").show();
-    $("#button").click(function(){
-        $("#page1").hide();
-        $("#page2, #map").show();
-    });
-});
 
 $(document).ready(function(){
     $("#backbutton").click(function(){
-        $("#page2").hide();
-        $("#page1").show();
+        $("#map").hide();
     });
 });
 function run() {

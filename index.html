@@ -25,14 +25,16 @@
         <input type="text" placeholder="Bangkok, Thailand" id="location">
     </div>
     <div id="enter">
-        <button id="button" type="button" class="button"  onclick="run()" onclick="location.href='#page2';">Enter</button>
+        <a href="#page2" onclick="run()" class="ui-btn"> Enter</a>
     </div>
 
 
 </div>
 
 <div data-role="page" id="page2">
-    <button id="button2" type="button" class="button" onclick="location.href='#page1';">Back</button>
+    <div data-role="header">
+        <a id = "backbutton" href="#page1" data-icon="carat-I" class="ui-btn-left">Back</a>
+    </div>
     <img id="icon"/>
     <div class="temp" id="temp" onclick="convertC()"></div>
     <div class="address" id="address"></div>
