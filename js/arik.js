@@ -1,4 +1,5 @@
 //g
+
 $(document).ready(function(){
     $("#error, #page2, #map").hide();
     $("#page1").show();
