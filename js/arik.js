@@ -108,6 +108,7 @@ function run() {
         humidity = result.currently.humidity;
         precipProbability = Math.round(result.currently.precipProbability * 100) / 100;
         console.log(precipProbability);
+        console.log(result.currently.precipProbability);
         visibility = result.currently.visibility;
         windSpeed = result.currently.windSpeed;
         display();
