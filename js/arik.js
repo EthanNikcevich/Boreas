@@ -10,8 +10,10 @@ $(document).ready(function(){
 
 $(document).ready(function(){
     $("#backbutton").click(function(){
-        $("#page2").hide();
+        console.log("hi");
         $("#page1").show();
+        $("#page2, #map").toggle();
+        console.log("bye");
     });
 });
 function run() {
