@@ -8,6 +8,7 @@ $(document).ready(function(){
     });
 });
 
+
 $(document).ready(function(){
     $("#backbutton").click(function(){
         $("#page2").hide();
