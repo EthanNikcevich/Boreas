@@ -97,6 +97,7 @@ function run() {
 
 
 
+
     function getData(result) {
         F = result.currently.apparentTemperature;
         icon = result.currently.icon;
