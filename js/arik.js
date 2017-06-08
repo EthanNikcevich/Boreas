@@ -10,10 +10,8 @@ $(document).ready(function(){
 
 $(document).ready(function(){
     $("#backbutton").click(function(){
-        console.log("hi");
+        $("#page2").hide();
         $("#page1").show();
-        $("#page2, #map").toggle();
-        console.log("bye");
     });
 });
 function run() {
@@ -87,7 +85,7 @@ function run() {
     function initMap() {
         var uluru = {lat: latitude, lng: longitude};
         var map = new google.maps.Map(document.getElementById('map'), {
-            zoom: 4,
+            zoom: 11,
             center: uluru
         });
         var marker = new google.maps.Marker({
@@ -99,16 +97,16 @@ function run() {
 
 
 
-
     function getData(result) {
         F = result.currently.apparentTemperature;
         icon = result.currently.icon;
         summary = result.currently.summary;
         cloudCover = result.currently.cloudCover;
         humidity = result.currently.humidity;
-        precipProbability = Math.round(result.currently.precipProbability * 100) / 100;
+        precipProbabilityRaw = result.currently.precipProbability;
+        var a = precipProbabilityRaw.toString();
+        precipProbability = a.slice(0, 6);
         console.log(precipProbability);
-        console.log(result.currently.precipProbability);
         visibility = result.currently.visibility;
         windSpeed = result.currently.windSpeed;
         display();
