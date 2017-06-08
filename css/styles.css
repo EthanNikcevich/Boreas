@@ -112,12 +112,10 @@
 }
 
 .button {
-    margin: 200px auto;
     font-family: Optima;
     color: #000000;
     font-size: 20px;
 }
-
 #location {
     font-family: Optima;
     font-size: 20px
