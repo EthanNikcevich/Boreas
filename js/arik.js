@@ -1,7 +1,7 @@
 
 $(document).ready(function(){
     $("#backbutton").click(function(){
-        $("#map").hide();
+        $("#map").toggle();
     });
 });
 function run() {
