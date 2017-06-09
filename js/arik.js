@@ -1,7 +1,13 @@
 
 $(document).ready(function(){
     $("#backbutton").click(function(){
-        $("#map").toggle();
+        $("#map").hide();
+    });
+});
+
+$(document).ready(function(){
+    $("#enter").click(function(){
+        $("#map").show();
     });
 });
 function run() {
